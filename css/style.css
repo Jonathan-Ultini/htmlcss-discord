@@ -25,7 +25,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3161E0;
+    width: 100%;
+    background-color: #255EE9;
+}
+
+.navbar-wrapper {
+    background-color: #255EE9; 
+    width: 100%;
 }
 
 
@@ -46,18 +52,18 @@ body {
 }
 
 .navbar-actions a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 16px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border: 1px solid white;
     border-radius: 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: white;
 }
 
 .navbar-actions a:hover {
-    background-color: white;
-    color: #7289da;
+    background-color: grey;
+    color: #fff;
 }
 
 .jumbotron {
@@ -65,7 +71,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 20px;
+    padding: 150px 20px;
 }
 
 .jumbotron .content {
@@ -74,12 +80,12 @@ body {
 }
 
 .jumbotron h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 40px;
 }
 
 .jumbotron p {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 30px;
 }
 
@@ -98,22 +104,27 @@ body {
 }
 
 .jumbotron .btn-primary {
+    color: black;
     background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 22px;
 }
 
 .jumbotron .btn-primary:hover {
-    background-color: #5a6b9a;
+    background-color: #23272A;
+    color: #fff;
 }
 
 .jumbotron .btn-secondary {
     background-color: #23272A;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 20px;
     color: white;
+    font-size: 22px;
 }
 
 .jumbotron .btn-secondary:hover {
-    background-color: #000000;
+    color: black;
+    background-color: #efeff4;
 }
