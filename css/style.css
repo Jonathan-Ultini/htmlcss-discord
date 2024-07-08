@@ -179,3 +179,24 @@ section > .container {
 .gray-block{
     background-color: #F6F6F6;
 }
+
+.special .btn-primary {
+    color: black;
+    background-color: #8EA1E1;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+.special .btn-primary:hover {
+    background-color: #23272A;
+    color: #fff;
+}
+
+.special h1{
+    color: black;
+    margin-bottom: 60px;
+}
+
