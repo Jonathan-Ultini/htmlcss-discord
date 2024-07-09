@@ -32,12 +32,15 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #255EE9;
 }
 
 .navbar-wrapper {
-    background-color: #255EE9; 
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+    background-position: center;
 }
 
 
@@ -73,10 +76,6 @@ body {
 }
 
 .jumbotron {
-    background-image: url('../img/jumbo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     padding: 150px 20px;
 }
 
