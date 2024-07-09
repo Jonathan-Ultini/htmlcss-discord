@@ -93,6 +93,7 @@ body {
 .jumbotron p {
     font-size: 22px;
     margin-bottom: 30px;
+    line-height: 150%;
 }
 
 .jumbotron .actions {
@@ -112,9 +113,9 @@ body {
 .jumbotron .btn-primary {
     color: black;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .jumbotron .btn-primary:hover {
@@ -124,10 +125,10 @@ body {
 
 .jumbotron .btn-secondary {
     background-color: #23272A;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .jumbotron .btn-secondary:hover {
@@ -283,7 +284,7 @@ footer {
 }
 
 .footer-column ul li {
-    margin: 5px 0;
+    margin: 12px 0;
 }
 
 .footer-column ul li a {
